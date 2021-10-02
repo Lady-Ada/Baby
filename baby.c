@@ -1,6 +1,7 @@
 #include <stdio.h>
 //Age determiner
-int main(){
+int main()
+{
 	int a;
 	printf("\033[34,41,1mEnter your age=");
 	scanf("%d",&a);
@@ -13,6 +14,4 @@ int main(){
 	else	
 	printf("your baby");
 	return 0;
-	
-	
 }
