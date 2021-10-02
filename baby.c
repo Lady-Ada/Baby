@@ -1,4 +1,5 @@
 #include <stdio.h>
+//Age determiner
 int main(){
 	int a;
 	printf("\033[34,41,1mEnter your age=");
@@ -9,8 +10,7 @@ int main(){
 	printf("your Adult");
 	else if(a>=50)
 	printf("your Old");
-	else
-	
-		
+	else	
 	printf("your baby");
-	return 0;}
+	return 0;
+}
